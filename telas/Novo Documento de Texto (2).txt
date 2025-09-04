@@ -1,0 +1,11 @@
+Heurística	Aplicação no Meio da Página
+1. Visibilidade do status	Títulos grandes e datas visíveis facilitam entendimento da atualização.
+2. Compatibilidade com o mundo real	Layout de blog tradicional, leitura natural, imagens envolventes.
+3. Controle e liberdade	Cada post é clicável com botão "Read More". Navegação livre.
+4. Consistência e padrões	Padrão visual de blog com repetições coerentes.
+5. Prevenção de erros	Links são separados, bem destacados, evitando cliques errados.
+6. Reconhecimento em vez de memorização	As imagens e títulos ajudam a lembrar o conteúdo visualmente.
+7. Flexibilidade e eficiência de uso	Layout responsivo. Pode navegar rapidamente pelos posts.
+8. Estética e design minimalista	Muito espaço em branco, foco nos conteúdos essenciais.
+9. Diagnóstico e recuperação de erros	Estrutura fácil de voltar atrás sem se perder.
+10. Ajuda e documentação	Posts são autoexplicativos; pode-se incluir FAQ ou "Contato" no final.
