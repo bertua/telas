@@ -1,298 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Hollow Knight: Silksong Release Trailer</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-    /* -------- Reset & Base -------- */
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    body {
-      font-family: 'Segoe UI', sans-serif;
-      background: #fff;
-      color: #333;
-    }
-    a {
-      text-decoration: none;
-      color: #cc4455;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-
-    /* -------- Header -------- */
-    header {
-      background: #e84d57;
-      padding: 1rem;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      flex-wrap: wrap;
-    }
-
-    .logo {
-      display: flex;
-      align-items: center;
-    }
-
-    .logo img {
-      height: 32px;
-      margin-right: 10px;
-    }
-
-    nav {
-      display: flex;
-      gap: 1.5rem;
-    }
-
-    nav a {
-      color: white;
-      font-weight: bold;
-      transition: opacity 0.3s;
-    }
-
-    nav a:hover {
-      opacity: 0.8;
-    }
-
-    .social-icons {
-      display: flex;
-      gap: 0.8rem;
-    }
-
-    .social-icons a img {
-      height: 20px;
-    }
-
-    /* -------- Main Content -------- */
-    .container {
-      max-width: 1100px;
-      margin: 2rem auto;
-      padding: 0 1rem;
-      display: flex;
-      flex-wrap: wrap;
-      gap: 2rem;
-    }
-
-    .image-wrapper {
-      flex: 1 1 45%;
-    }
-
-    .image-wrapper img {
-      width: 100%;
-      border-radius: 10px;
-    }
-
-    .content {
-      flex: 1 1 45%;
-    }
-
-    .content h1 {
-      font-size: 2rem;
-      color: #e84d57;
-      margin-bottom: 1rem;
-    }
-
-    .content p {
-      margin: 1rem 0;
-      line-height: 1.6;
-    }
-
-    .content a.cta {
-      display: inline-block;
-      margin-top: 1rem;
-      background: #e84d57;
-      color: white;
-      padding: 0.6rem 1.2rem;
-      border-radius: 4px;
-      transition: background 0.3s;
-    }
-
-    .content a.cta:hover {
-      background: #c63645;
-    }
-
-    footer {
-      text-align: center;
-      padding: 1.5rem;
-      background: #eee;
-      color: #666;
-      font-size: 0.9rem;
-    }
-
-    @media(max-width: 768px) {
-      .container {
-        flex-direction: column;
-      }
-
-      nav, .social-icons {
-        margin-top: 1rem;
-        justify-content: center;
-        width: 100%;
-      }
-
-      nav {
-        flex-wrap: wrap;
-        justify-content: center;
-      }
-    }
-
-    .blog-list {
-        max-width: 1100px;
-        margin: 2rem auto;
-        padding: 0 1rem;
-        display: flex;
-        flex-direction: column;
-        gap: 3rem;
-    }
-
-    .blog-post {
-        display: flex;
-        align-items: center;
-        gap: 2rem;
-        flex-wrap: wrap;
-    }
-
-    .blog-post.reverse {
-        flex-direction: row-reverse;
-    }
-
-    .blog-post img {
-        width: 300px;
-        height: auto;
-        border-radius: 10px;
-    }
-
-    .post-content {
-        flex: 1;
-    }
-
-    .post-content h2 {
-        color: #e84d57;
-        margin-bottom: 0.5rem;
-    }
-
-    .post-content p {
-        margin: 0.5rem 0;
-        line-height: 1.5;
-    }
-
-    .read-more {
-        display: inline-block;
-        margin-top: 0.5rem;
-        color: #e84d57;
-        text-decoration: underline;
-        font-weight: bold;
-    }
-
-    .read-more:hover {
-        text-decoration: none;
-    }
-
-    @media (max-width: 768px) {
-        .blog-post {
-        flex-direction: column;
-        align-items: flex-start;
-        }
-
-        .blog-post.reverse {
-        flex-direction: column;
-        }
-
-        .blog-post img {
-        width: 100%;
-        }
-    }
-  </style>
+  <meta charset="UTF-8" />
+  <title>Team Cherry</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="index.css">
 </head>
 <body>
-
   <!-- Header -->
   <header>
-    <div class="logo">
-      <img src="https://teamcherry.com.au/wp-content/themes/tc2021/assets/images/logo.svg" alt="Team Cherry Logo">
-    </div>
-    <nav>
-      <a href="#">Blog</a>
-      <a href="#">Games</a>
-      <a href="#">Merchandise</a>
-      <a href="#">About</a>
-    </nav>
-    <div class="social-icons">
-        <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/5968/5968830.png" alt="X icon" width="24"></a>
-        <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" alt="YouTube icon" width="24"></a>
-        <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook icon" width="24"></a>
-        <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/5/5c/Bluesky_Social_butterfly_logo_icon.svg" alt="Bluesky butterfly" title="Bluesky" width="24"></a>
+    <div class="header-container">
+      <div class="logo">
+        <a href="index.html"><img src="imagens/logo.png" alt="Team Cherry Logo" /></a>
+      </div>
+      <nav>
+        <a href="index.html">Blog</a>
+        <a href="games.html">Games</a>
+        <a href="merchandise.html">Merchandise</a>
+        <a href="about.html">About</a>
+      </nav>
+      <div class="social-icons">
+        <a href="https://x.com/TeamCherryGames" target="_blank">
+          <img src="https://cdn-icons-png.flaticon.com/512/5968/5968830.png" alt="X icon" />
+        </a>
+        <a href="https://www.youtube.com/user/teamcherrygames" target="_blank">
+          <img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" alt="YouTube icon" />
+        </a>
+        <a href="https://www.facebook.com/teamcherrygames" target="_blank">
+          <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook icon" />
+        </a>
+        <a href="https://bsky.app/profile/did:plc:njcr3moahtid7crxdjtu26jp" target="_blank">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/5/5c/Bluesky_Social_butterfly_logo_icon.svg" alt="Bluesky icon" />
+        </a>
+      </div>
     </div>
   </header>
 
   <!-- Main Content -->
-    <main class="blog-list">
+  <main class="blog-list">
     <article class="blog-post">
-        <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1030300/capsule_616x353.jpg" alt="Silksong Trailer">
-        <div class="post-content">
+      <img
+        src="https://cdn.cloudflare.steamstatic.com/steam/apps/1030300/capsule_616x353.jpg"
+        alt="Silksong Trailer"
+      />
+      <div class="post-content">
         <h2>HOLLOW KNIGHT: SILKSONG RELEASE TRAILER</h2>
         <p>On September 4, ascend to the peak of a haunted kingdom in Hollow Knight: Silksong!</p>
         <p><strong>Date:</strong> 8/21/25</p>
         <a href="#" class="read-more">Read More</a>
-        </div>
+      </div>
     </article>
 
     <article class="blog-post reverse">
-        <img src="https://i.ytimg.com/vi/W9Yj23cR4fA/maxresdefault.jpg" alt="Silksong Countdown">
-        <div class="post-content">
+      <img src="imagens/img1.png" alt="Silksong Countdown" />
+      <div class="post-content">
         <h2>THE COUNTDOWN IS ON!</h2>
         <p>Excitement is building as the countdown to Silksong begins! Don’t miss the reveal.</p>
         <p><strong>Date:</strong> 7/15/25</p>
         <a href="#" class="read-more">Read More</a>
-        </div>
+      </div>
     </article>
 
     <article class="blog-post">
-        <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/367520/capsule_616x353.jpg" alt="Holiday Sign Off">
-        <div class="post-content">
+      <img
+        src="https://cdn.cloudflare.steamstatic.com/steam/apps/367520/capsule_616x353.jpg"
+        alt="Holiday Sign Off"
+      />
+      <div class="post-content">
         <h2>TEAM CHERRY HOLIDAY SIGN OFF</h2>
         <p>We’re taking a break! Thanks for all the support. See you next year with new content.</p>
         <p><strong>Date:</strong> 6/30/25</p>
         <a href="#" class="read-more">Read More</a>
-        </div>
+      </div>
     </article>
-
-    <!-- Adicione quantos posts quiser com o mesmo padrão -->
-    </main>
+  </main>
 
   <!-- Footer -->
-  <footer class="site-footer">
-    <div class="footer-container">
-        <div class="footer-info">
-        <p>
-            Team Cherry is a small indie games team in Adelaide, South Australia.
-        </p>
-        <p>
-            Our mission is to build crazy and exciting worlds for you to explore and conquer.
-        </p>
-        <p>Copyright © 2025 Team Cherry</p>
-        </div>
-
-        <div class="footer-links">
-        <div class="footer-nav">
-            <a href="#">Blog</a> |
-            <a href="#">Games</a> |
-            <a href="#">Merchandise</a> |
-            <a href="#">About</a>
-        </div>
-        <div class="footer-secondary">
-            <a href="#">FAQ</a> |
-            <a href="#">Contact Us</a>
-        </div>
-        </div>
-
-        <div class="footer-social">
-            <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/5968/5968830.png" alt="X icon" width="24"></a>
-            <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" alt="YouTube icon" width="24"></a>
-            <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook icon" width="24"></a>
-            <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/5/5c/Bluesky_Social_butterfly_logo_icon.svg" alt="Bluesky butterfly" title="Bluesky" width="24"></a>
-        </div>
+  <footer>
+    <div class="container">
+      <p>Copyright &copy; 2025 Team Cherry</p>
+      <nav>
+        <a href="index.html">Blog</a> | <a href="games.html">Games</a> | <a href="merchandise.html">Merchandise</a> | <a href="#">About </a>| <a href="faq.html">FAQ </a>| <a href="contact.html">Contact Us</a>
+      </nav>
     </div>
   </footer>
 

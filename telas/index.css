@@ -1,0 +1,170 @@
+/* -------- Reset & Base -------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #fff;
+  color: #333;
+  line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  color: #cc4455;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* -------- Header -------- */
+header {
+  background-color: #e84d57;
+  color: white;
+}
+
+header .header-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 1rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+header .logo img {
+  height: 56px;
+}
+
+header nav {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+header nav a {
+  color: white;
+  font-weight: 700;
+  font-size: 1rem;
+  text-decoration: none;
+  transition: opacity 0.3s ease;
+}
+
+header nav a:hover,
+header nav a:focus {
+  opacity: 0.8;
+  outline: none;
+}
+
+
+/* -------- Social Icons -------- */
+.social-icons {
+  display: flex;
+  gap: 0.8rem;
+  margin-top: 1rem;
+}
+
+.social-icons a img {
+  height: 20px;
+  width: 20px;
+}
+
+/* -------- Main Content -------- */
+main {
+  flex: 1;
+  padding: 2rem 1rem;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.blog-list {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.blog-post {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.blog-post.reverse {
+  flex-direction: row-reverse;
+}
+
+.blog-post img {
+  width: 100%;
+  max-width: 350px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.post-content {
+  flex: 1;
+}
+
+.post-content h2 {
+  color: #e84d57;
+  margin-bottom: 0.5rem;
+}
+
+.post-content p {
+  margin: 0.5rem 0;
+}
+
+.read-more {
+  display: inline-block;
+  margin-top: 0.5rem;
+  color: #e84d57;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.read-more:hover {
+  text-decoration: none;
+}
+
+/* -------- Footer -------- */
+footer {
+  background-color: #eee;
+  padding: 2rem 1rem;
+  color: #666;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+footer p {
+  margin-bottom: 1rem;
+  color: #666;
+}
+
+footer nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+footer nav a {
+  color: #cc4455;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+footer nav a:hover,
+footer nav a:focus {
+  color: #e84d57;
+}
